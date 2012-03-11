@@ -25,7 +25,7 @@ and other awesome things.""",
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'Flask', 'Flask-Cache'
+        'werkzeug', 'Flask-Cache', 'pylibmc'
     ],
     classifiers=[
         'Environment :: Web Environment',
